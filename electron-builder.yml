@@ -1,0 +1,22 @@
+appId: com.buildrunner.app
+productName: BuildRunner
+files:
+  - dist/main/**/*
+  - dist/preload/**/*
+  - dist/renderer/**/*
+  - package.json
+extraResources:
+  - from: node_modules/better-sqlite3/build/Release
+    to: ./resources/better-sqlite3
+directories:
+  output: release
+mac:
+  category: public.app-category.productivity
+win:
+  target:
+    - nsis
+linux:
+  target:
+    - AppImage
+asar: true
+publish: null

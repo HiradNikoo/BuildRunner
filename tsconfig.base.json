@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ES2022", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@main/*": ["packages/main/src/*"],
+      "@preload/*": ["packages/preload/src/*"],
+      "@renderer/*": ["packages/renderer/src/*"],
+      "@shared/*": ["packages/shared/src/*"]
+    }
+  }
+}

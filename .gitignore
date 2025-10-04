@@ -1,0 +1,7 @@
+node_modules
+dist
+release
+buildrunner-demo.sqlite
+.DS_Store
+coverage
+playwright-report

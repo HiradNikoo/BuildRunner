@@ -1,0 +1,11 @@
+{
+  "name": "@buildrunner/main",
+  "version": "1.0.0",
+  "private": true,
+  "main": "../../dist/main/index.js",
+  "scripts": {
+    "build": "tsup src/main.ts --config tsup.config.ts",
+    "dev": "tsup src/main.ts --config tsup.config.ts --watch",
+    "typecheck": "tsc -p tsconfig.json"
+  }
+}
