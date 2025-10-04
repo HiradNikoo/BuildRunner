@@ -1,0 +1,11 @@
+{
+  "name": "@buildrunner/preload",
+  "version": "1.0.0",
+  "private": true,
+  "main": "../../dist/preload/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --config tsup.config.ts",
+    "dev": "tsup src/index.ts --config tsup.config.ts --watch",
+    "typecheck": "tsc -p tsconfig.json"
+  }
+}
